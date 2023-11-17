@@ -43,12 +43,11 @@ pub fn main() void {
     //
     // We'll convert this weight from tons to kilograms at a
     // conversion of 907.18kg to the ton.
-    const shuttle_weight: f16 = 907.18 * 2200;
-
+    var w: u32 = 2032092;
     // By default, float values are formatted in scientific
     // notation. Try experimenting with '{d}' and '{d:.3}' to see
     // how decimal formatting works.
-    print("Shuttle liftoff weight: {d:.0}kg\n", .{shuttle_weight});
+    print("Shuttle liftoff weight: {d:.0}kg\n", .{w});
 }
 
 // Floating further:
